@@ -1,0 +1,35 @@
+from selenium.webdriver.common.by import By
+
+
+class BurgersLocators():
+
+    BUTTON_LOGIN_ACCOUNT = (By.XPATH, ".//button[text()='Войти в аккаунт']")
+    BUTTON_LOGIN_IN_LOGIN_WINDOW = (By.XPATH, ".//button[text()='Войти']")
+    LINK_REGISTRATION = (By.XPATH, ".//a[text()='Зарегистрироваться']")
+    BUTTON_REGISTRATION_IN_REGISTER_WINDOW = (By.XPATH, ".//button[text()='Зарегистрироваться']")
+    INPUT_NAME_REGISTER_WINDOW = (By.XPATH, ".//label[text() = 'Имя']/parent::div/input")
+    INPUT_EMAIL_REGISTER_WINDOW = (By.XPATH, ".//label[text() = 'Email']/parent::div/input")
+    INPUT_EMAIL_LOGIN_WINDOW = (By.XPATH, ".//label[text() = 'Email']/parent::div/input")
+    INPUT_PASSWORD_REGISTER_WINDOW = (By.XPATH, ".//label[text() = 'Пароль']/parent::div/input")
+    INPUT_PASSWORD_LOGIN_WINDOW = (By.XPATH, ".//label[text() = 'Пароль']/parent::div/input")
+    H1_IN_MAIN_WINDOW = (By.XPATH, ".//h1[text() = 'Соберите бургер']")
+    BUTTON_PLACE_AN_ORDER = (By.XPATH, ".//button[text()='Оформить заказ']")
+    PASSWORD_TEXT_ERROR = (By.XPATH, ".//p[@class = 'input__error text_type_main-default']")
+    BUTTON_PERSONAL_ACCOUNT = (By.XPATH, ".//header//p[text()='Личный Кабинет']/parent::a")
+    LINK_LOGIN_REGISTER_WINDOW = (By.XPATH, ".//a[text() = 'Войти']")
+    LINK_LOGIN_FORGOT_PASSWORD_WINDOW = (By.XPATH, ".//a[text() = 'Войти']")
+    LINK_FOGOT_PASSWORD = (By.XPATH, ".//a[text()='Восстановить пароль']")
+    BUTTON_RESTORE_FORGOT_PASSWORD_WINDOW = (By.XPATH, ".//button[text()='Восстановить']")
+    BUTTON_CONSTRUCTOR = (By.XPATH, ".//header//p[text()='Конструктор']/parent::a")
+    BUTTON_LOGO = (By.XPATH, ".//div[@class='AppHeader_header__logo__2D0X2']/a")
+    BUTTON_EXIT = (By.XPATH, ".//button[text()='Выход']")
+    TAB_BUNS = (By.XPATH, ".//span[text()='Булки']/parent::div")
+    TAB_BUNS_CURRENT = (By.XPATH, ".//span[text()='Булки']/parent::div[contains(@class, 'current')]")
+    TAB_SAUCES = (By.XPATH, ".//span[text()='Соусы']/parent::div")
+    TAB_SAUCES_CURRENT = (By.XPATH, ".//span[text()='Соусы']/parent::div[contains(@class, 'current')]")
+    TAB_FILLINGS = (By.XPATH, ".//span[text()='Начинки']/parent::div")
+    TAB_FILLINGS_CURRENT = (By.XPATH, ".//span[text()='Начинки']/parent::div[contains(@class, 'current')]")
+    NAME_OF_LIST_BUNS =(By.XPATH, ".//h2[text()='Булки']")
+    NAME_OF_LIST_SAUCES = (By.XPATH, ".//h2[text()='Соусы']")
+    NAME_OF_LIST_FILLINGS = (By.XPATH, ".//h2[text()='Начинки']")
+
