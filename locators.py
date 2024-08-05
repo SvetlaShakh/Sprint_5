@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class BurgersLocators():
+class BurgersLocators:
 
     BUTTON_LOGIN_ACCOUNT = (By.XPATH, ".//button[text()='Войти в аккаунт']")
     BUTTON_LOGIN_IN_LOGIN_WINDOW = (By.XPATH, ".//button[text()='Войти']")
@@ -29,7 +29,6 @@ class BurgersLocators():
     TAB_SAUCES_CURRENT = (By.XPATH, ".//span[text()='Соусы']/parent::div[contains(@class, 'current')]")
     TAB_FILLINGS = (By.XPATH, ".//span[text()='Начинки']/parent::div")
     TAB_FILLINGS_CURRENT = (By.XPATH, ".//span[text()='Начинки']/parent::div[contains(@class, 'current')]")
-    NAME_OF_LIST_BUNS =(By.XPATH, ".//h2[text()='Булки']")
+    NAME_OF_LIST_BUNS = (By.XPATH, ".//h2[text()='Булки']")
     NAME_OF_LIST_SAUCES = (By.XPATH, ".//h2[text()='Соусы']")
     NAME_OF_LIST_FILLINGS = (By.XPATH, ".//h2[text()='Начинки']")
-
